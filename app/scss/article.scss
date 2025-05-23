@@ -77,7 +77,7 @@
         &-people{
             margin-top: 8px;
             display: flex;
-            gap: 48px;
+            gap: 64px;
             .people{
                 display: flex;
                 flex-direction: column;
@@ -131,6 +131,7 @@
                 flex-direction: column;
                 gap: 24px;
                 align-items: flex-end;
+                width: 100%;
                 .quote{
                     width: 100%;
                     font-weight: 350;
@@ -292,14 +293,14 @@
                     font-size: 24px;
                     line-height: 38px;
                     letter-spacing: 0%;
-                    text-decoration: underline;
-                    text-decoration-style: solid;
-                    text-decoration-offset: 25%;
-                    text-decoration-thickness: 0%;
-                    text-decoration-skip-ink: auto;
-                    color: #2140DB;
+                    color: #1f2128;
                     list-style: decimal;
                     list-style-position: inside;
+                    a{
+                        color: #2140db;
+                        text-decoration: underline;
+                        word-break: break-all;
+                    }
                 }
             }
         }

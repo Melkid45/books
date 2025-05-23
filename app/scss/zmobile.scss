@@ -323,14 +323,12 @@
                         font-size: 16rem;
                         line-height: 22rem;
                         letter-spacing: 0%;
-                        text-decoration: underline;
-                        text-decoration-style: solid;
-                        text-decoration-offset: 25%;
-                        text-decoration-thickness: 0%;
-                        text-decoration-skip-ink: auto;
-                        color: #2140DB;
+                        color: #1F2128;
                         list-style: decimal;
                         list-style-position: inside;
+                        a{
+                            color: #2140db;
+                        }
                     }
                 }
             }
@@ -386,7 +384,7 @@
         h1{
             font-family: var(--semi);
             font-weight: 600;
-            font-size: 28rem;
+            font-size: 36rem;
             line-height: 36rem;
             letter-spacing: 0%;
             text-align: center;
