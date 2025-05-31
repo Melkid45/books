@@ -29,7 +29,9 @@ body{
     font-family: var(--book);
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 .desk{
     display: flex !important;
 }
